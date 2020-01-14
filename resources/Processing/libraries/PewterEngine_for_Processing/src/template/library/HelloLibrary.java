@@ -21,7 +21,7 @@ public class HelloLibrary {
 
 	int myVariable = 0;
 	
-	public final static String VERSION = "##library.prettyVersion##";
+	public final static String VERSION = "0.0.0";
 	
 
 	/**
@@ -38,7 +38,7 @@ public class HelloLibrary {
 	
 	
 	private void welcome() {
-		System.out.println("##library.name## ##library.prettyVersion## by ##author##");
+		System.out.println("Pewter Game Engine 0.0.0 by Stephen Kelly http://yoururl.com");
 	}
 	
 	
